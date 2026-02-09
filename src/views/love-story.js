@@ -9,47 +9,45 @@ import './love-story.css'
 
 const LoveStory = (props) => {
   return (
-    <div className="love-story-container1">
+    <div id="lovestory" className="love-story-container1">
       <Helmet>
-        <title>Love-Story - Overjoyed Scary Viper</title>
+        <title>Hoàng Nhi & Thủy Tiên - Wedding Invitation</title>
         <meta
           property="og:title"
-          content="Love-Story - Overjoyed Scary Viper"
+          content="Hoàng Nhi & Thủy Tiên - Wedding Invitation"
         />
         <link
           rel="canonical"
-          href="https://overjoyed-scary-viper-m3t5n3.teleporthq.app/love-story"
+          href="https://haongnhithuytien.vercel.app/"
         />
       </Helmet>
-      <Navigation></Navigation>
       <section className="love-story-hero">
         <div className="hero-media-wrapper">
-          <video
-            src="https://videos.pexels.com/video-files/11698586/11698586-hd_1280_720_25fps.mp4"
-            loop="true"
-            muted="true"
-            poster="https://images.pexels.com/videos/11698586/pictures/preview-0.jpeg"
-            autoPlay="true"
-            playsInline="true"
-            className="hero-video"
-          ></video>
+          {/*<video*/}
+          {/*  src="https://videos.pexels.com/video-files/11698586/11698586-hd_1280_720_25fps.mp4"*/}
+          {/*  loop="true"*/}
+          {/*  muted="true"*/}
+          {/*  poster="https://images.pexels.com/videos/11698586/pictures/preview-0.jpeg"*/}
+          {/*  autoPlay="true"*/}
+          {/*  playsInline="true"*/}
+          {/*  className="hero-video"*/}
+          {/*></video>*/}
+          <img
+              src="/assets/AC.JPG"
+              alt="Wedding Hero"
+              className="hero-image"
+          />
           <div className="hero-overlay"></div>
         </div>
         <div className="hero-content-outer">
           <div className="hero-foreground-block">
-            <span className="section-subtitle">Our Journey Begins</span>
+            <span className="section-subtitle">Save The Day</span>
             <h1 className="hero-title love-story-hero-title">
-              Evelyn &amp; Julian
+              Hoàng Nhi &amp; Thủy Tiên
             </h1>
             <p className="hero-subtitle">
-              September 24, 2026 • The Beginning of Forever
+              12 - 04 - 2026 • The Beginning of Forever
             </p>
-            <div className="hero-intro-line">
-              <p className="section-content">
-                A story written in the stars, nurtured by time, and celebrated
-                in the heart of autumn.
-              </p>
-            </div>
             <div className="hero-actions">
               <a href="#timeline">
                 <div className="btn-primary btn-lg btn">
@@ -588,28 +586,7 @@ const LoveStory = (props) => {
           aria-label="Sign up to TeleportHQ"
           className="love-story-container4"
         >
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 19 21"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="love-story-icon43"
-          >
-            <path
-              d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
-              fill="#B23ADE"
-            ></path>
-            <path
-              d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
-              fill="#FF5C5C"
-            ></path>
-            <path
-              d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
-              fill="#2874DE"
-            ></path>
-          </svg>
-          <span className="love-story-text4">Built in TeleportHQ</span>
+          <span className="love-story-text4">Gửi lời chúc mừng</span>
         </div>
       </a>
     </div>

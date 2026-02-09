@@ -892,6 +892,12 @@
   transition: all 0.3s ease;
   border-bottom: 1px solid color-mix(in oklab, var(--color-primary) 15%, transparent);
   backdrop-filter: blur(12px);
+
+  /*color: var(--color-surface);*/
+  /*background: var(--color-scrim);*/
+  /*box-shadow: 0 20px 40px rgba(0,0,0,0.1);*/
+  /*border-radius: var(--border-radius-xl);*/
+  /*backdrop-filter: blur(8px);*/
 }
  
 .navigation-container {
@@ -1067,6 +1073,19 @@
   height: 100%;
   z-index: 1;
   position: absolute;
+
+  display: flex;
+  align-items: center;      /* canh dọc */
+  justify-content: center;  /* canh ngang */
+
+  overflow: hidden;
+  background-color: #f7dbe5; /* pastel nền */
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* giống video cover */
 }
  
 .hero-content-outer {
